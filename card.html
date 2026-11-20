@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards - Task 2</title>
+    <link rel="stylesheet" href="card.css">
+    
+</head>
+<body>
+
+    <h1 class="page-title">Featured Products</h1>
+
+    <!-- TODO 1: الحاوية التي تجمع البطاقات الثلاث في صف -->
+    <div class="cards-container">
+
+        <!-- البطاقة 1: سماعات + شارة SALE -->
+        <div class="product-card">
+            <!-- TODO 7: شارة الخصم -->
+            <span class="badge">SALE</span>
+
+            <!-- TODO 3: صورة المنتج -->
+            <img src="headphones.jpg" alt="Wireless Headphones" class="product-img">
+
+            <!-- TODO 4: محتوى البطاقة -->
+            <div class="card-content">
+                <h2 class="product-title">Wireless Headphones</h2>
+                <p class="product-desc">
+                    Premium noise-canceling wireless headphones with 30-hour battery life.
+                </p>
+                <div class="price-box">
+                    <span class="old-price">$199.99</span>
+                    <span class="product-price">$149.99</span>
+                </div>
+
+                <!-- TODO 5: زر بتدرج لوني -->
+                <button class="btn-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- البطاقة 2: ساعة ذكية -->
+        <div class="product-card">
+            <img src="smartwatch.jpg" alt="Smart Watch Pro" class="product-img">
+
+            <div class="card-content">
+                <h2 class="product-title">Smart Watch Pro</h2>
+                <p class="product-desc">
+                    Fitness tracking, heart rate monitor, GPS, and 7-day battery life.
+                </p>
+                <div class="price-box">
+                    <span class="product-price">$299.99</span>
+                </div>
+
+                <button class="btn-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- البطاقة 3: عطر فاخر -->
+        <div class="product-card">
+            <img src="perfume.jpg" alt="Luxury Perfume" class="product-img">
+
+            <div class="card-content">
+                <h2 class="product-title">Luxury Perfume</h2>
+                <p class="product-desc">
+                    Elegant fragrance with notes of jasmine, vanilla, and sandalwood.
+                </p>
+                <div class="price-box">
+                    <span class="product-price">$89.99</span>
+                </div>
+
+                <button class="btn-cart">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
